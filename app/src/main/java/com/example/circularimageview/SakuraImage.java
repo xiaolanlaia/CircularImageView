@@ -48,7 +48,7 @@ public class SakuraImage extends AppCompatImageView {
         super(context, attrs, defStyleAttr);
         TypedArray typedArray = context.obtainStyledAttributes(attrs, R.styleable.SakuraImage, defStyleAttr, 0);
         ratio = typedArray.getFloat(R.styleable.SakuraImage_ratio, 1);
-        referEdge = typedArray.getFloat(R.styleable.SakuraImage_refer, 1);
+//        referEdge = typedArray.getFloat(R.styleable.SakuraImage_refer, 1);
         radius = typedArray.getFloat(R.styleable.SakuraImage_radius, 0);
         typedArray.recycle();
         initViews();
