@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SakuraImage">
+        <attr name="ratio" format="float"/>
+        <attr name="refer" format="float"/>
+        <attr name="radius" format="float"/>
+
+    </declare-styleable>
+</resources>
